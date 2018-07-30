@@ -2,7 +2,7 @@
  * File: get_ekf.c
  *
  * MATLAB Coder version            : 3.4
- * C/C++ source code generated on  : 30-Jul-2018 16:43:34
+ * C/C++ source code generated on  : 30-Jul-2018 23:02:18
  */
 
 /* Include Files */
@@ -200,9 +200,9 @@ void dstate_struct_initializer(dstate_t *out)
 {
   out->xd_dot = 0.0F;
   out->xd_dot_dot = 0.0F;
-  out->R_m_dot = 0.009F;
-  out->K_m_dot = 41.75F;
-  out->R_e_dot = 31.75F;
+  out->R_m_dot = 0.1F;
+  out->K_m_dot = 4.0F;
+  out->R_e_dot = 6.0F;
 }
 
 /*
@@ -211,7 +211,7 @@ void dstate_struct_initializer(dstate_t *out)
  */
 void filter_parameters_struct_initializer(struct0_T *out)
 {
-  static struct0_T r0 = { { 0.001F, 1.0F, 0.011F, 39.75F, 29.75F },/* X0 */
+  static struct0_T r0 = { { 0.0F, 0.0F, 0.11F, 4.1F, 6.2F },/* X0 */
     { 100000.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 100000.0F, 0.0F, 0.0F, 0.0F, 0.0F,
       0.0F, 100000.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 100000.0F, 0.0F, 0.0F, 0.0F,
       0.0F, 0.0F, 100000.0F },         /* P0 */
@@ -603,8 +603,8 @@ void get_model_step(const float b_X[5], float u, float b_ut, const float n[5],
  */
 void parameters_initializer(parameters_t *out)
 {
-  out->Bl = 0.23F;
-  out->M_m = 8.0E-6F;
+  out->Bl = 0.7F;
+  out->M_m = 0.0001F;
 }
 
 /*
@@ -630,9 +630,9 @@ void state_struct_initializer(state_t *out)
 {
   out->xd = 0.0F;
   out->xd_dot = 0.0F;
-  out->R_m = 0.009F;
-  out->K_m = 41.75F;
-  out->R_e = 31.75F;
+  out->R_m = 0.1F;
+  out->K_m = 4.0F;
+  out->R_e = 6.0F;
 }
 
 /*

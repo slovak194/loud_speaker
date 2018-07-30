@@ -2,7 +2,7 @@
  * File: _coder_get_ekf_info.h 
  *  
  * MATLAB Coder version            : 3.4 
- * C/C++ source code generated on  : 30-Jul-2018 16:43:34 
+ * C/C++ source code generated on  : 30-Jul-2018 23:02:18 
  */
 
 #ifndef _CODER_GET_EKF_INFO_H

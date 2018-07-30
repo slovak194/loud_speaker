@@ -97,6 +97,16 @@ l = legend('show'); l.Interpreter = 'none';
 %%
 fig(fig_idx) = figure(fig_idx);
 fig(fig_idx).WindowStyle = 'docked';
+fig(fig_idx).Name = 'phase_plot_in_out';
+fig_idx = fig_idx + 1;
+cla
+hold on; grid on; grid minor
+plot(data, YY(1, :), '.-', 'DisplayName', 'xd_dot_vrpt_xd_real');
+l = legend('show'); l.Interpreter = 'none';
+
+%%
+fig(fig_idx) = figure(fig_idx);
+fig(fig_idx).WindowStyle = 'docked';
 fig(fig_idx).Name = 'measurements';
 fig_idx = fig_idx + 1;
 cla

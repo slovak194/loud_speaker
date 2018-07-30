@@ -1,0 +1,6 @@
+Mms = 100 mg
+Bl = 0.7 N/A
+Re = 6. Ohm
+Kms = 4e3 N/mm
+Rms = 0.1 kg/s
+

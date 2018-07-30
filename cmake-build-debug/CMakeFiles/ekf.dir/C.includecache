@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/slovak/loud_speaker/codegen/lib/get_ekf/get_ekf.c
+get_ekf.h
+/home/slovak/loud_speaker/codegen/lib/get_ekf/get_ekf.h
+
+/home/slovak/loud_speaker/codegen/lib/get_ekf/get_ekf.h
+math.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+rtwtypes.h
+/home/slovak/loud_speaker/codegen/lib/get_ekf/rtwtypes.h
+get_ekf_types.h
+/home/slovak/loud_speaker/codegen/lib/get_ekf/get_ekf_types.h
+
+/home/slovak/loud_speaker/codegen/lib/get_ekf/get_ekf_types.h
+rtwtypes.h
+/home/slovak/loud_speaker/codegen/lib/get_ekf/rtwtypes.h
+
+/home/slovak/loud_speaker/codegen/lib/get_ekf/rtwtypes.h
+

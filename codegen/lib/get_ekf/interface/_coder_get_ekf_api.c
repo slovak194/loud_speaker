@@ -2,7 +2,7 @@
  * File: _coder_get_ekf_api.c
  *
  * MATLAB Coder version            : 3.4
- * C/C++ source code generated on  : 30-Jul-2018 16:43:34
+ * C/C++ source code generated on  : 30-Jul-2018 23:02:18
  */
 
 /* Include Files */
@@ -746,8 +746,8 @@ void ctrl_struct_initializer_api(const mxArray * const prhs[1], const mxArray
 void dstate_struct_initializer_api(const mxArray * const prhs[1], const mxArray *
   plhs[1])
 {
-  static const uint32_T dstate[4] = { 3059316039U, 3020023459U, 1915697812U,
-    3720084717U };
+  static const uint32_T dstate[4] = { 4281054031U, 434408559U, 4210050298U,
+    1926546272U };
 
   dstate_t out;
   emlrtStack st = { NULL,              /* site */
@@ -775,8 +775,8 @@ void dstate_struct_initializer_api(const mxArray * const prhs[1], const mxArray 
 void filter_parameters_struct_initializer_api(const mxArray * const prhs[1],
   const mxArray *plhs[1])
 {
-  static const uint32_T f_p[4] = { 1055320876U, 1774959039U, 2671067162U,
-    2151209868U };
+  static const uint32_T f_p[4] = { 1031791567U, 2858036067U, 1003279951U,
+    2039894613U };
 
   struct0_T out;
   emlrtStack st = { NULL,              /* site */
@@ -1020,8 +1020,8 @@ void get_model_step_api(const mxArray * const prhs[6], const mxArray *plhs[4])
 void parameters_initializer_api(const mxArray * const prhs[1], const mxArray
   *plhs[1])
 {
-  static const uint32_T params[4] = { 1785915831U, 1349025101U, 3517658425U,
-    607634159U };
+  static const uint32_T params[4] = { 2294266630U, 3581304866U, 940943775U,
+    3664693608U };
 
   parameters_t out;
   emlrtStack st = { NULL,              /* site */
@@ -1078,8 +1078,8 @@ void state_names_initializer_api(const mxArray * const prhs[1], const mxArray
 void state_struct_initializer_api(const mxArray * const prhs[1], const mxArray
   *plhs[1])
 {
-  static const uint32_T state[4] = { 1834183323U, 2296263695U, 557297346U,
-    1741555590U };
+  static const uint32_T state[4] = { 4288421841U, 1708477348U, 351242664U,
+    3924979355U };
 
   state_t out;
   emlrtStack st = { NULL,              /* site */

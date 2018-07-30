@@ -2,7 +2,6 @@
 *~
 *.swp
 .idea
-cmake-build-debug
 
 html
 *.mat
