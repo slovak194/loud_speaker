@@ -24,7 +24,10 @@ X_dot = simplify(X_dot, ...
     );
 
 %%
-write_symbolic_vector_info_getter(DebugSymbols, PATHSTR, 'debug');
+
+[PATHSTR, ~, ~] = fileparts(which(mfilename));
+
+% write_symbolic_vector_info_getter(DebugSymbols, PATHSTR, 'debug');
 write_symbolic_vector_info_getter(cellstr(string(p))', PATHSTR, 'parameters');
 write_symbolic_vector_info_getter(cellstr(string(X))', PATHSTR, 'state');
 write_symbolic_vector_info_getter(cellstr(string(u))', PATHSTR, 'ctrl');
@@ -63,7 +66,7 @@ J_X_out_n = jacobian(X_out, n);
 file_name = fullfile(PATHSTR, 'get_prediction_jacobians.m');
 matlabFunction(J_X_out_x, J_X_out_u, J_X_out_n, ...
     'File', file_name, ...
-    'Optimize', false, ...
+    'Optimize', true, ...
     'Vars', {X, u, n, p, dt}, ...
     'Outputs', {'J_X_out_x', 'J_X_out_u', 'J_X_out_n'});
 

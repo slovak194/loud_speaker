@@ -2,7 +2,7 @@
  * File: get_ekf_types.h
  *
  * MATLAB Coder version            : 3.4
- * C/C++ source code generated on  : 28-Jul-2018 22:50:20
+ * C/C++ source code generated on  : 30-Jul-2018 16:43:34
  */
 
 #ifndef GET_EKF_TYPES_H

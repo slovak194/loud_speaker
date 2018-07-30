@@ -2,7 +2,7 @@
  * File: _coder_get_ekf_api.c
  *
  * MATLAB Coder version            : 3.4
- * C/C++ source code generated on  : 28-Jul-2018 22:50:20
+ * C/C++ source code generated on  : 30-Jul-2018 16:43:34
  */
 
 /* Include Files */
@@ -775,8 +775,8 @@ void dstate_struct_initializer_api(const mxArray * const prhs[1], const mxArray 
 void filter_parameters_struct_initializer_api(const mxArray * const prhs[1],
   const mxArray *plhs[1])
 {
-  static const uint32_T f_p[4] = { 2525095024U, 247106944U, 3824767459U,
-    618245173U };
+  static const uint32_T f_p[4] = { 1055320876U, 1774959039U, 2671067162U,
+    2151209868U };
 
   struct0_T out;
   emlrtStack st = { NULL,              /* site */
