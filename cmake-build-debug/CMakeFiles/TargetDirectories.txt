@@ -1,4 +1,0 @@
-/home/slovak/loud_speaker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/slovak/loud_speaker/cmake-build-debug/CMakeFiles/ekf_test.dir
-/home/slovak/loud_speaker/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/slovak/loud_speaker/cmake-build-debug/CMakeFiles/ekf.dir

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libekf.a  CMakeFiles/ekf.dir/codegen/lib/get_ekf/get_ekf.c.o
-/usr/bin/ranlib libekf.a
