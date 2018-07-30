@@ -1,0 +1,26 @@
+%%
+
+syms xd xd_dot xd_dot_dot real;
+syms ii v real;
+syms R_e R_m K_m Bl M_m dt real;
+
+X = [...
+    xd; ...
+    xd_dot; ...
+    R_m; ...
+    ];
+
+eq1 = R_e*ii == v - Bl*xd_dot;
+ii = solve(eq1, ii);
+eq2 = M_m*xd_dot_dot == Bl*ii - R_m*xd_dot - K_m * xd;
+xd_dot_dot = solve(eq2, xd_dot_dot);
+
+X_dot = [...
+    xd_dot; ...
+    xd_dot_dot; ...
+    0; ...
+    ];
+
+u = [v]'; % inputs
+p = [R_e, K_m, Bl, M_m]'; % parameters
+n = sym('n', size(X)); % noize

@@ -1,0 +1,8 @@
+*.mex*64
+*~
+*.swp
+.idea
+
+html
+*.mat
+
